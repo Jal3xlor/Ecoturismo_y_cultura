@@ -1,0 +1,97 @@
+/* PAGINA DE CONTACTO */
+
+.pagina-contacto{
+    background-color: #F5F3EA;
+    padding: 30px 20px;
+}
+
+.introduccion-contacto, .informacion-contacto, .ubicacion-contacto,
+.asistencia-turistica, .canales-digitales,
+.formulario-contacto{
+    max-width: 900px;
+    margin: 0 auto 25px;
+    padding: 25px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.pagina-contacto h2{
+    color: #0D4778;
+}
+
+.pagina-contacto p{
+    color: #444444;
+    line-height: 1.7;
+}
+
+.pagina-contacto a{
+    color: #26734D;
+}
+
+.ubicacion-contacto img{
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin: 20px auto 0;
+    border-radius: 5px;
+}
+
+.formulario-contacto form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.campo-contacto{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.campo-contacto label{
+    font-weight: bold;
+    color: #333333;
+}
+
+.campo-contacto input,
+.campo-contacto select,
+.campo-contacto textarea{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #BFC9C2;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+.campo-contacto textarea{
+    resize: vertical;
+}
+
+.formulario-contacto button{
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #26734D;
+    color: #FFFFFF;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.formulario-contacto button:hover{
+    background-color: #123D32;
+}
+
+@media (max-width: 600px){
+    .pagina-contacto{
+        padding: 20px 12px;
+    }
+
+    .introduccion-contacto, .informacion-contacto, .ubicacion-contacto,
+    .asistencia-turistica, .canales-digitales,
+    .formulario-contacto {
+        padding: 18px;
+    }
+}

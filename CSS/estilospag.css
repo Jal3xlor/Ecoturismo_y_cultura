@@ -257,3 +257,222 @@ footer p{
 footer strong{
     color: #F0C66B;
 }
+
+
+/*espacio donde empieza el css para destinos.html*/
+
+
+.catalogo-rutas{
+    background-color: #F5F3EA;
+    padding: 35px 20px;
+}
+
+.introduccion-catalogo{
+    max-width: 1000px;
+    margin: 0 auto 35px;
+    text-align: center;
+}
+
+.etiqueta{
+    color: #26734D;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.introduccion-catalogo h2{
+    color: #0D4778;
+    font-size: 32px;
+    margin: 12px 0;
+}
+
+.introduccion-catalogo p{
+    line-height: 1.7;
+    color: #444444;
+}
+
+.nota-datos{
+    background-color: #FFF8E5;
+    border-left: 4px solid #F0C66B;
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.ruta-turistica{
+    max-width: 1100px;
+    margin: 0 auto 45px;
+}
+
+.encabezado-ruta{
+    background-color: #123D32;
+    color: white;
+    padding: 28px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.encabezado-ruta p:first-child{
+    color: #F0C66B;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.encabezado-ruta h2{
+    color: #FFFFFF;
+    font-size: 28px;
+    margin: 12px 0;
+}
+
+.encabezado-ruta p{
+    line-height: 1.7;
+}
+
+.destino{
+    background-color: #FFFFFF;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
+}
+
+.destino h3{
+    color: #0D4778;
+    font-size: 24px;
+    border-bottom: 2px solid #F0C66B;
+    padding-bottom: 12px;
+    margin-top: 0;
+}
+
+.destino h4{
+    color: #26734D;
+    font-size: 17px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+.destino p,
+.destino li{
+    color: #444444;
+    line-height: 1.7;
+}
+
+.destino ul{
+    padding-left: 25px;
+}
+
+.destino li{
+    margin-bottom: 7px;
+}
+
+.dificultad{
+    background-color: #F5F3EA;
+    border-left: 4px solid #26734D;
+    padding: 12px 15px;
+    border-radius: 4px;
+}
+
+.tabla-contenedor{
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 15px;
+}
+
+.destino table{
+    width: 100%;
+    min-width: 650px;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.destino caption{
+    color: #123D32;
+    text-align: left;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 12px 0;
+}
+
+.destino th{
+    background-color: #0D4778;
+    color: white;
+    text-align: left;
+}
+
+.destino th,
+.destino td{
+    border: 1px solid #DDDDDD;
+    padding: 12px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.destino tbody tr:nth-child(even){
+    background-color: #F5F3EA;
+}
+
+.destino tbody tr:hover{
+    background-color: #E8F0E9;
+}
+
+.llamado-reservacion{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 35px 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.llamado-reservacion h2{
+    color: #0D4778;
+}
+
+.llamado-reservacion p{
+    color: #444444;
+    line-height: 1.7;
+}
+
+.boton-principal{
+    display: inline-block;
+    background-color: #26734D;
+    color: white;
+    text-decoration: none;
+    padding: 13px 22px;
+    margin-top: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.boton-principal:hover{
+    background-color: #123D32;
+}
+
+@media (max-width: 600px){
+    .catalogo-rutas{
+        padding: 20px 12px;
+    }
+
+    .encabezado-ruta{
+        padding: 22px;
+    }
+
+    .encabezado-ruta h2{
+        font-size: 23px;
+    }
+
+    .destino{
+        padding: 17px;
+    }
+
+    .destino h3{
+        font-size: 21px;
+    }
+
+    .introduccion-catalogo h2{
+        font-size: 27px;
+    }
+}
+

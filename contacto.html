@@ -2,8 +2,9 @@
 <html lang="es">
     <meta charset="UTF-8">
     <head>
-        <title>Tierra Catracha | Conozca Honduras</title>
+        <title>Tierra Catracha | Contactanos</title>
         <link rel="stylesheet" href="CSS/estilospag.css">
+        <link rel="stylesheet" href="CSS/estilospags3.css">
     </head>
     <body>
         <header>
@@ -25,9 +26,66 @@
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
-        <main>
-            
-        </main> 
+        <main class="pagina-contacto">
+            <section class="introduccion-contacto">
+                <h2>Contacto y Asistencia al Turista</h2>
+                <p>Estamos aquí para ayudarte a planificar tu viaje, resolver tus dudas y orientarte durante tu experiencia en Honduras</p>
+            </section>
+            <section class="informacion-contacto">
+                <h2>Información de contacto</h2>
+                <p><strong>Oficina de referencia:</strong> Tegucigalpa, Distrito Central, Honduras</p>
+                <p><strong>Teléfono:</strong> <a href="tel:+50422200020">+504 2220-0020</a></p>
+                <p><strong>Correo electrónico:</strong> <a href="mailto:tierracatracha2026@gmail.com">tierracatracha2026@gmail.com</a></p>
+                <p><strong>Horario de atención:</strong> Lunes a viernes, de 8:00 a. m. a 5:00 p. m.</p>
+            </section>
+            <section class="ubicacion-contacto">
+                <h2>Ubicación de oficinas</h2>
+                <p>Consulta el siguiente mapa esquemático como referencia para localizar nuestras oficinas de información turística</p>
+                <img src="imagenes/mapa-ubicacion.jpg" alt="Mapa esquemático de referencia de las oficinas de información turística">
+            </section>
+            <section class="asistencia-turistica">
+                <h2>Teléfonos de asistencia</h2>
+                <p><strong>Emergencias generales:</strong> 911</p>
+                <p><strong>Asistencia vial:</strong> Consulta los canales oficiales de las autoridades de tránsito y emergencias</p>
+                <p>En caso de emergencia, proporciona tu ubicación y describe claramente la situación</p>
+            </section>
+            <section class="canales-digitales">
+                <h2>Canales digitales</h2>
+                <p><a href="https://www.iht.hn/" target="_blank" rel="noopener noreferrer">Instituto Hondureño de Turismo</a></p>
+                <p><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a></p>
+                <p><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+            </section>
+            <section class="formulario-contacto">
+                <h2>Formulario de consultas</h2>
+                <p>Completa los siguientes campos para realizar una consulta, enviar un comentario o solicitar asistencia</p>
+                <form action="#" method="get">
+                    <div class="campo-contacto">
+                        <label for="nombre-contacto">Nombre completo *</label>
+                        <input type="text" id="nombre-contacto" name="nombre" minlength="5" maxlength="100" required>
+                    </div>
+                    <div class="campo-contacto">
+                        <label for="correo-contacto">Correo electrónico *</label>
+                        <input type="email" id="correo-contacto" name="correo" maxlength="120" required>
+                    </div>
+                    <div class="campo-contacto">
+                        <label for="tipo-consulta">Tipo de solicitud *</label>
+                        <select id="tipo-consulta" name="tipo-consulta" required>
+                            <option value="">-- Selecciona una opción --</option>
+                            <option value="consulta">Consulta general</option>
+                            <option value="comentario">Comentario o sugerencia</option>
+                            <option value="asistencia">Solicitud de asistencia</option>
+                            <option value="informacion">Información turística</option>
+                        </select>
+                    </div>
+                    <div class="campo-contacto">
+                        <label for="mensaje-contacto">Mensaje *</label>
+                        <textarea id="mensaje-contacto" name="mensaje" rows="5" minlength="10" maxlength="1000" required></textarea>
+                    </div>
+                    <button type="submit">Enviar consulta</button>
+                    <button type="reset">Limpiar formulario</button>
+                </form>
+            </section>
+        </main>
     </body>
     <footer>
         <h2>Tierra Catracha</h2>

@@ -1,0 +1,622 @@
+/* PAGINA DE CULTURA, PATRIMONIO Y GASTRONOMIA */
+.pagina-patrimonio{
+    background-color: #F5F3EA;
+    padding: 35px 20px;
+}
+
+.introduccion-patrimonio{
+    max-width: 1000px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.introduccion-patrimonio h2{
+    color: #0D4778;
+    font-size: 32px;
+    margin: 12px 0;
+}
+
+.introduccion-patrimonio > p:last-child{
+    color: #444444;
+    line-height: 1.7;
+}
+
+.pagina-patrimonio .etiqueta{
+    color: #26734D;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* FRANCISCO MORAZAN */
+
+.seccion-historia{
+    max-width: 1100px;
+    margin: 0 auto 45px;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.imagen-morazan{
+    flex: 1;
+    min-width: 250px;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.imagen-morazan img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.imagen-morazan p{
+    color: #555555;
+    font-size: 13px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.texto-historia{
+    flex: 2;
+}
+
+.texto-historia h2,
+.seccion-proceres > h2,
+.encabezado-seccion h2{
+    color: #0D4778;
+    font-size: 28px;
+    margin: 10px 0 15px;
+}
+
+.texto-historia p,
+.seccion-proceres > p,
+.encabezado-seccion > p:last-child{
+    color: #444444;
+    line-height: 1.7;
+}
+
+.texto-historia h3{
+    color: #123D32;
+    margin-top: 22px;
+}
+
+.lista-pilares{
+    padding-left: 22px;
+}
+
+.lista-pilares li{
+    color: #444444;
+    line-height: 1.7;
+    margin-bottom: 9px;
+}
+
+/* PROCERES */
+
+.seccion-proceres{
+    max-width: 1100px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.tarjetas-proceres{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.tarjeta-procer{
+    flex: 1;
+    min-width: 220px;
+    background-color: #FFFFFF;
+    border-top: 4px solid #F0C66B;
+    border-radius: 8px;
+    padding: 22px;
+    text-align: left;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
+}
+
+.tarjeta-procer h3{
+    color: #26734D;
+    margin-top: 0;
+}
+
+.tarjeta-procer p{
+    color: #444444;
+    line-height: 1.7;
+}
+
+/* ENCABEZADOS DE SECCION */
+
+.seccion-etnias,
+.seccion-gastronomia{
+    max-width: 1100px;
+    margin: 0 auto 50px;
+}
+
+.encabezado-seccion{
+    text-align: center;
+    max-width: 850px;
+    margin: 0 auto 25px;
+}
+
+.encabezado-seccion > p:last-child{
+    margin-bottom: 25px;
+}
+
+/* PUEBLOS */
+
+.catalogo-etnias{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.tarjeta-etnia{
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.07);
+}
+
+.tarjeta-etnia img{
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    display: block;
+}
+
+.tarjeta-etnia div{
+    padding: 18px;
+}
+
+.tarjeta-etnia h3{
+    color: #26734D;
+    margin: 0 0 10px;
+    font-size: 19px;
+}
+
+.tarjeta-etnia p{
+    color: #444444;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+/* CATALOGO GASTRONOMICO */
+
+.catalogo-gastronomia{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.tarjeta-comida{
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.07);
+}
+
+.tarjeta-comida img{
+    display: block;
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+.contenido-comida{
+    padding: 18px;
+}
+
+.contenido-comida h3{
+    color: #0D4778;
+    font-size: 19px;
+    margin: 0 0 10px;
+}
+
+.contenido-comida p{
+    color: #444444;
+    line-height: 1.6;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* LLAMADO A EXPLORAR DESTINOS */
+
+.llamado-reservacion{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 35px 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.llamado-reservacion h2{
+    color: #0D4778;
+}
+
+.llamado-reservacion p{
+    color: #444444;
+    line-height: 1.7;
+}
+
+.boton-principal{
+    display: inline-block;
+    background-color: #26734D;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 13px 22px;
+    margin-top: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.boton-principal:hover{
+    background-color: #123D32;
+}
+
+/* ADAPTACION A CELULARES Y TABLETAS */
+
+@media (max-width: 850px){
+    .catalogo-etnias,
+    .catalogo-gastronomia{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .seccion-historia{
+        gap: 20px;
+    }
+
+    .imagen-morazan img{
+        height: 350px;
+    }
+}
+
+@media (max-width: 600px){
+    .pagina-patrimonio {
+        padding: 25px 12px;
+    }
+
+    .introduccion-patrimonio h2{
+        font-size: 26px;
+    }
+
+    .seccion-historia{
+        flex-direction: column;
+    }
+
+    .imagen-morazan{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .imagen-morazan img{
+        height: auto;
+        max-height: 420px;
+    }
+
+    .texto-historia h2,
+    .seccion-proceres > h2,
+    .encabezado-seccion h2{
+        font-size: 24px;
+    }
+
+    .catalogo-etnias,
+    .catalogo-gastronomia{
+        grid-template-columns: 1fr;
+    }
+
+    .tarjeta-procer{
+        min-width: 0;
+        box-sizing: border-box;
+    }
+}
+
+/* PAGINA DE RESERVACIONES */
+
+.pagina-reservaciones{
+    background-color: #F5F3EA;
+    padding: 35px 20px;
+}
+
+.introduccion-reservaciones{
+    max-width: 900px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.introduccion-reservaciones h2{
+    color: #0D4778;
+    font-size: 32px;
+    margin: 12px 0;
+}
+
+.introduccion-reservaciones > p:not(.etiqueta){
+    color: #444444;
+    line-height: 1.7;
+}
+
+.pagina-reservaciones .etiqueta{
+    color: #26734D;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.formulario-reservaciones{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.aviso-formulario{
+    color: #555555;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.formulario-reservaciones fieldset{
+    border: 1px solid #D5DCD6;
+    border-radius: 8px;
+    padding: 22px;
+    margin-bottom: 25px;
+    min-width: 0;
+}
+
+.formulario-reservaciones legend{
+    color: #123D32;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.grupo-campo{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.grupo-campo label{
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.grupo-campo input,
+.grupo-campo select,
+.grupo-campo textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #BFC9C2;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #333333;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+.grupo-campo input:focus,
+.grupo-campo select:focus,
+.grupo-campo textarea:focus{
+    outline: 2px solid #26734D;
+    outline-offset: 1px;
+}
+
+.grupo-campo textarea{
+    resize: vertical;
+}
+
+.fila-campos{
+    display: flex;
+    gap: 20px;
+}
+
+.fila-campos .grupo-campo{
+    flex: 1;
+    min-width: 0;
+}
+
+.descripcion-campo,
+.nota-campo{
+    color: #555555;
+    line-height: 1.6;
+}
+
+.descripcion-campo{
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.nota-campo{
+    font-size: 13px;
+}
+
+/*  HOSPEDAJE */
+
+.opciones-servicio{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 15px;
+}
+
+.opcion-servicio{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 15px;
+    border: 1px solid #D5DCD6;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.opcion-servicio input,
+.opciones-adicionales input{
+    accent-color: #26734D;
+}
+
+.opcion-servicio span{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.opcion-servicio strong{
+    color: #123D32;
+    font-size: 14px;
+}
+
+.opcion-servicio small{
+    color: #555555;
+    line-height: 1.5;
+}
+
+/* OPCIONES ADICIONALES */
+
+.opciones-adicionales{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 22px;
+}
+
+.opciones-adicionales label{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    color: #333333;
+    line-height: 1.6;
+    cursor: pointer;
+}
+
+.opciones-adicionales input{
+    margin-top: 5px;
+    flex-shrink: 0;
+}
+
+.compromiso-conservacion{
+    background-color: #F8FAF6;
+}
+
+.compromiso-conservacion > p{
+    color: #444444;
+    line-height: 1.7;
+}
+
+/* BOTONES */
+
+.acciones-formulario{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.boton-enviar,
+.boton-limpiar{
+    border: none;
+    border-radius: 5px;
+    padding: 13px 24px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boton-enviar{
+    background-color: #26734D;
+    color: #FFFFFF;
+}
+
+.boton-enviar:hover{
+    background-color: #123D32;
+}
+
+.boton-limpiar{
+    background-color: #E5E8E5;
+    color: #333333;
+}
+
+.boton-limpiar:hover{
+    background-color: #D5DCD6;
+}
+
+/* INFORMACION ADICIONAL */
+
+.nota-reservaciones{
+    max-width: 850px;
+    margin: 30px auto 0;
+    padding: 25px;
+    background-color: #FFFFFF;
+    border-left: 4px solid #F0C66B;
+    border-radius: 5px;
+}
+
+.nota-reservaciones h2{
+    color: #0D4778;
+    font-size: 22px;
+}
+
+.nota-reservaciones p{
+    color: #444444;
+    line-height: 1.7;
+}
+
+/* TABLETAS */
+
+@media (max-width: 850px){
+    .opciones-servicio {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* CELULARES */
+
+@media (max-width: 600px){
+    .pagina-reservaciones{
+        padding: 25px 12px;
+    }
+
+    .introduccion-reservaciones h2{
+        font-size: 26px;
+    }
+
+    .formulario-reservaciones{
+        padding: 18px;
+    }
+
+    .formulario-reservaciones fieldset{
+        padding: 16px;
+    }
+
+    .fila-campos{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .acciones-formulario{
+        flex-direction: column;
+    }
+
+    .boton-enviar,
+    .boton-limpiar{
+        width: 100%;
+    }
+
+    .nota-reservaciones{
+        padding: 20px;
+    }
+}

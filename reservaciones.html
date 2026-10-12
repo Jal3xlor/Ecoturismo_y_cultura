@@ -2,8 +2,9 @@
 <html lang="es">
     <meta charset="UTF-8">
     <head>
-        <title>Tierra Catracha | Conozca Honduras</title>
+        <title>Tierra Catracha | Reservaciones</title>
         <link rel="stylesheet" href="CSS/estilospag.css">
+        <link rel="stylesheet" href="CSS/estilospags2.css">
     </head>
     <body>
         <header>
@@ -25,9 +26,139 @@
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
-        <main>
-            
-        </main> 
+        <main class="pagina-reservaciones">
+            <section class="introduccion-reservaciones">
+                <p class="etiqueta">PLANIFICA TU EXPERIENCIA</p>
+                <h2>Reservaciones y Solicitud de Tours</h2>
+                <p>Completa el formulario para indicar el destino que deseas visitar, las fechas de tu viaje y los servicios que necesitas</p>
+            </section>
+
+            <form class="formulario-reservaciones" action="#" method="get">
+
+                <p class="aviso-formulario">Los campos marcados con * son obligatorios</p>
+
+                <fieldset>
+                    <legend>1. Información del viajero titular</legend>
+
+                    <div class="grupo-campo">
+                        <label for="nombre">Nombre completo *</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre y apellidos" minlength="5" maxlength="100" autocomplete="name" required>
+                    </div>
+
+                    <div class="fila-campos">
+                        <div class="grupo-campo">
+                            <label for="telefono">Número telefónico *</label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="+504 9999-9999" minlength="8" maxlength="20" autocomplete="tel" required>
+                        </div>
+
+                        <div class="grupo-campo">
+                            <label for="correo">Correo electrónico *</label>
+                            <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" maxlength="120" autocomplete="email" required>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>2. Circuito turístico o destino</legend>
+
+                    <div class="grupo-campo">
+                        <label for="destino">Selecciona una ruta o destino *</label>
+                        <select id="destino" name="destino" required>
+                            <option value="">-- Selecciona una opción --</option>
+                            <optgroup label="Circuitos turísticos">
+                                <option value="rutapacifico">Ruta del Sol y el Pacífico Hondureño</option>
+                                <option value="rutalenca">Ruta Lenca: Tradición, Montañas y Pueblos con Encanto</option>
+                                <option value="rutacolonial">Ruta Colonial del Centro: Comayagua y Distrito Central</option>
+                                <option value="rutacaribe">Ruta Caribe Vivo: Playas, Arrecifes y Cultura Garífuna</option>
+                                <option value="rutalago">Ruta del Lago y la Aventura Natural</option>
+                            </optgroup>
+                            <optgroup label="Destinos individuales">
+                                <option value="roatan">Roatán</option>
+                                <option value="laesperanza">La Esperanza e Intibucá</option>
+                                <option value="comayagua">Comayagua</option>
+                                <option value="copan">Copán Ruinas</option>
+                                <option value="lagoyojoa">Lago de Yojoa</option>
+                                <option value="valleangeles">Valle de Ángeles</option>
+                                <option value="amapala">Amapala e Isla del Tigre</option>
+                                <option value="gracias">Gracias, Lempira</option>
+                                <option value="tela">Tela</option>
+                                <option value="laceiba">La Ceiba</option>
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <div class="fila-campos">
+                        <div class="grupo-campo">
+                            <label for="fecha-inicio">Fecha prevista de inicio *</label>
+                            <input type="date" id="fecha-inicio" name="fecha-inicio" required>
+                        </div>
+                        <div class="grupo-campo">
+                            <label for="fecha-retorno">Fecha prevista de retorno *</label>
+                            <input type="date" id="fecha-retorno" name="fecha-retorno" required>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>3. Número de visitantes</legend>
+                    <div class="fila-campos">
+                        <div class="grupo-campo">
+                            <label for="adultos">Cantidad de adultos *</label>
+                            <input type="number" id="adultos" name="adultos" min="0" max="100" value="1" required>
+                        </div>
+                        <div class="grupo-campo">
+                            <label for="menores">Cantidad de menores *</label>
+                            <input type="number" id="menores" name="menores" min="0" max="100" value="0" required>
+                        </div>
+                    </div>
+                    <p class="nota-campo">Debe incluirse al menos un visitante entre adultos y menores</p>
+                </fieldset>
+                <fieldset>
+                    <legend>4. Tipo de hospedaje</legend>
+                    <p class="descripcion-campo">Selecciona el servicio de hospedaje </p>
+                    <div class="opciones-servicio">
+                        <label class="opcion-servicio">
+                            <input type="radio" name="hospedaje" value="cabana-ecologica" required>
+                            <span><strong>Cabaña ecológica</strong><small>Estancia en contacto con la naturaleza</small></span>
+                        </label>
+
+                        <label class="opcion-servicio">
+                            <input type="radio" name="hospedaje" value="hotel-colonial" required>
+                            <span><strong>Hotel colonial</strong><small>Hospedaje con ambiente histórico</small></span>
+                        </label>
+
+                        <label class="opcion-servicio">
+                            <input type="radio" name="hospedaje" value="campamento-montana" required>
+                            <span><strong>Campamento de montaña</strong><small>Experiencia al aire libre</small></span>
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>5. Necesidades adicionales</legend>
+                    <div class="opciones-adicionales">
+                        <label><input type="checkbox" id="accesibilidad" name="accesibilidad" value="si"> Necesito asistencia o facilidades de accesibilidad</label>
+                        <label><input type="checkbox" id="guia-bilingue" name="guia-bilingue" value="si"> Solicito un guía bilingüe</label>
+                    </div>
+                    <div class="grupo-campo">
+                        <label for="observaciones">Observaciones o necesidades específicas</label>
+                        <textarea id="observaciones" name="observaciones" rows="4" maxlength="1000" placeholder="Escribe aquí cualquier detalle adicional"></textarea>
+                    </div>
+                </fieldset>
+                <fieldset class="compromiso-conservacion">
+                    <legend>6. Compromiso de conservación</legend>
+                    <p>Los visitantes deben respetar la naturaleza, las comunidades locales y los bienes históricos y culturales de Honduras</p>
+                    <div class="opciones-adicionales">
+                        <label><input type="checkbox" id="compromiso" name="compromiso" value="aceptado" required> Confirmo que me comprometo a respetar la conservación ecológica, evitar la contaminación, cuidar la flora y fauna y proteger el patrimonio natural, histórico y cultural durante mi visita *</label>
+                    </div>
+                </fieldset>
+                <div class="acciones-formulario">
+                    <button type="submit" class="boton-enviar">Enviar solicitud</button>
+                    <button type="reset" class="boton-limpiar">Limpiar formulario</button>
+                </div>
+            </form>
+            <section class="nota-reservaciones">
+                <h2>Información importante</h2>
+                <p>El envío de este formulario es una demostración académica. Para recibir y guardar solicitudes reales, será necesario conectarlo posteriormente a un sistema de procesamiento de formularios</p>
+            </section> 
     </body>
     <footer>
         <h2>Tierra Catracha</h2>
