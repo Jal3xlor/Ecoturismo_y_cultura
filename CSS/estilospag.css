@@ -1,3 +1,259 @@
-nav{
+/*para los headers y menus de navegacion*/
+header{
+    background-color: #4f96cf;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+header h1{
+    font-size: 35px;
+    margin-bottom: 8px;
+}
+
+header p{
+    font-size: 18px;
+    margin: 8px;
+}
+
+/*menu de navegacion*/
+.menu-navegacion{
+    background-color: #1c9778;
+}
+
+.menu-navegacion ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu-navegacion a{
+    padding: 1rem;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.menu-navegacion a:hover{
+    background-color: #6bd1f0;
+    color: #123d32;
+}
+
+/*Aqui empiezan las estiquetas del apartado de bienvenida*/
+.bienvenida{
+    background-color: #123d32;
+    background-image: url("../imagenes/hondurasinicio.jpg");
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 1rem 0.5rem;
+}
+
+.texto-bienvenida{
+    width: 80%;
+    margin: auto;
+}
+
+.titulo-bienvenida{
+    color: #e6c37a;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.bienvenida h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.bienvenida h2{
+    font-size: 25px;
+}
+
+.boton-llamado{
+    display: inline-block;
+    background-color: #399b6a;
+    color: white;
+    padding: 14px 26px;
+    margin-top: 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.boton-llamado:hover{
+    background-color: #204e38;
+}
+
+/*para las tarjetas de destino*/
+.destinos-honduras{
+    background-color: #e9e6d7;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.destinos-honduras h2 {
+    color: #10538a;
+    font-size: 32px;
+}
+
+.destinos-honduras p {
+    color: #3d3c3c;
+    margin-bottom: 28px;
+}
+
+.caja-destinos{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.destinos-cuadro{
+    background-color: white;
+    width: 300px;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.destinos-cuadro img{
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.destinos-cuadro h3{
+    color: #26734D;
+    margin: 15px;
+}
+
+.destinos-cuadro p{
+    color: #444444;
+    line-height: 1.6;
+    margin: 15px;
+}
+
+.destinos-cuadro a{
+    display: inline-block;
+    background-color: #0D4778;
+    color: white;
+    padding: 10px 15px;
+    margin: 0 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.destinos-cuadro a:hover{
+    background-color: #123D32;
+}
+
+.boton-destinos-inicio{
+    display: inline-block;
+    background-color: #26734D;
+    color: white;
+    padding: 14px 22px;
+    margin-top: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.boton-destinos-inicio:hover{
+    background-color: #123D32;
+}
+
+/*la parte de los datos sobre honduras*/
+.datos-honduras{
+    background-color: #f5f4f4;
+    padding: 40px 25px;
+    text-align: center;
+}
+
+.datos-honduras h2{
+    color: #15578d;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.introduccion-datos{
+    color: #4e4b4b;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+.contenedor-datos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cartas-datos{
+    background-color: #e6e4dd;
+    border: 1px solid #c5bebe;
+    border-top: 4px solid #3d8f66;
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.cartas-datos h3{
+    color: #0D4778;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.cartas-datos p{
+    color: #444444;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.cartas-datos strong{
+    color: #26734D;
+}
+
+/*footer*/
+footer{
+    background-color: #154e40;
+    color: #e4dfc8;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+    border-top: 5px solid #f3c35c;
+}
+
+footer h2{
+    color: #FFFFFF;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+footer h3{
+    color: #f3c35c;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+footer p{
+    font-size: 12px;
+    margin: 8px 0;
+}
+
+footer strong{
+    color: #F0C66B;
 }
